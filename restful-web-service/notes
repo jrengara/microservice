@@ -1,4 +1,4 @@
-#REST end points
+#REST end points - Examples of REST API
 
 
 1. Get all users      - GET /users/
