@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: jboss/wildfly
+    volumes:
+      - C:\workspace-2\dockerforjava\helloweb\deployments:/opt/jboss/wildfly/standalone/deployments
+    ports:
+      - 8080:8080
